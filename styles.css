@@ -191,6 +191,22 @@ h1 {
   height: auto;
 }
 
+.affiliate__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 14px;
+  color: var(--text);
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.affiliate__link:hover {
+  border-color: var(--line);
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .feature {
   display: grid;
   grid-template-columns: 1fr auto;
