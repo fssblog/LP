@@ -170,6 +170,27 @@ h1 {
   line-height: 1.65;
 }
 
+.affiliate {
+  margin-top: 16px;
+  padding: 24px;
+  background: var(--panel);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.affiliate__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.affiliate__item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .feature {
   display: grid;
   grid-template-columns: 1fr auto;
